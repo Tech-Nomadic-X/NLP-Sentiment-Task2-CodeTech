@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Python environment files
+*.env
+*.venv
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# VS Code settings
+.vscode/
+
+# macOS files
+.DS_Store
+
+# Model and vectorizer pickle files (optional, if you want to exclude)
+# *.pkl
+
+# Other files
+*.pyc
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# Testing
+pytest_cache/
+
+# Ignore dataset csv if too large
+IMDB Dataset.csv
